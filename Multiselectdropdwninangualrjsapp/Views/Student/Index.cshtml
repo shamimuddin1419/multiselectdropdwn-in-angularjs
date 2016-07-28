@@ -1,0 +1,32 @@
+﻿<div ng-app="myapp">
+    <div ng-controller="StudentCtrl">
+        <br />
+        <br />
+        <br />
+        <br /><br />
+        <br />
+        <div class="col-md-4">
+            <ngdropdownmultiselect control="ngDropdownMultiselectControlo">
+                <div ng-dropdown-multiselect="" options="Departments" selected-model="ListMultiProcessModel" checkboxes="true">
+                </div>
+            </ngdropdownmultiselect>
+        </div>
+        <div class="col-md-4">
+            <input type="button" value="show" ng-click="ShowSelectedDepartment()" />
+
+        </div>
+
+    </div>
+
+</div>
+<style type="text/css">
+    .btn .caret, .ui-state-default .caret, .ui-widget-content .ui-state-default .caret, .ui-widget-header .ui-state-default .caret, .ColVis_MasterButton .caret, .fc-state-default .caret {
+        border-top-color: #333333 !important;
+        margin-top: 0;
+        margin-left: 125px !important;
+        vertical-align: middle;
+    }
+</style>
+
+
+
